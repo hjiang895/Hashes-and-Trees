@@ -44,7 +44,7 @@ I have provided skeleton code for a hash-based implementation of the `MapCS2` in
 
 
 ### Part 2: Tree map with a binary search tree: `TreeMapCS2.java`
-I have provided skeleton code for a tree-based implementation of the `MapCS2` interface in the `TreeMapCS2.java` file. Your tree map implementation will include all of the interface methods, plus the following components:
+I have provided skeleton code for a binary search tree-based implementation of the `MapCS2` interface in the `TreeMapCS2.java` file. Your tree map implementation will include all of the interface methods, plus the following components:
 
 * You will create your trees using an inner `Node` class, whose instance variables will include `Key k, Value v, Node rightchild`, and `Node leftchild`. You will define this inner class.
 
@@ -54,7 +54,7 @@ I have provided skeleton code for a tree-based implementation of the `MapCS2` in
 
 * When you are writing the code for `getKeys()` to return an ArrayList of ordered keys, consult the class notes on tree traversal to remember how to traverse the tree in the correct order to return an ordered list. (Hint: it's in-order!)
 
-*There are many implementations of the tree map data structure on the web. You must implement your tree map as I have described above using the skeleton code I have provided.*
+*There are many implementations of the tree map data structure on the web. You must implement your tree map as I have described above using the skeleton code I have provided. Remember that I have provided [a ton of BST sample code here](  https://github.com/BC-CSCI-1102-S19-TTh3/example_code/tree/master/week8/BInarySearchTrees). You definitely can and should use the code, though you will have to change it to make it work with these different data types, of coursE!*
 
 
 ### Part 3: Testing your data structures
